@@ -5239,6 +5239,11 @@ declare namespace Electron {
 		 */
 		getZoomLevel(): number;
 		/**
+		 * @2woongjae 1.6.1
+		 * Deprecated: Call setVisualZoomLevelLimits instead to set the visual zoom level limits. This method will be removed in Electron 2.0.
+		 */
+		setZoomLevelLimits(minimumLevel: number, maximumLevel: number): void;
+		/**
 		 * Sets the maximum and minimum zoom level.
 		 */
 		setVisualZoomLevelLimits(minimumLevel: number, maximumLevel: number): void;

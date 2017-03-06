@@ -1,5 +1,23 @@
 {
-  "name": "electron.d.ts",
+  "name": "@types/uuid",
   "version": "1.6.1",
-  "author": "Mark Lee <mark@protopie.io> (https://github.com/2woongjae)"
+  "author": {
+    "name": "Mark Lee",
+    "email": "https://github.com/2woongjae/"
+  },
+  "_location": "/@types/uuid",
+  "dependencies": {
+    "@types/node": "*"
+  },
+  "description": "TypeScript definitions for electron v1.6.1",
+  "devDependencies": {},
+  "directories": {},
+  "main": "",
+  "optionalDependencies": {},
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/2woongjae/electron.d.ts.git"
+  },
+  "typings": "index.d.ts"
 }
